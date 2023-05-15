@@ -1,0 +1,13 @@
+{
+  "name": "CgFinancas",
+  "short_name": "CGF",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "description": "",
+  "background_color": "#f0d886",
+  "theme_color": "#f0d886",
+  "icons": [
+
+  ]
+}

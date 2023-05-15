@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cgfinancas</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background-login">
+        <div class="login-container">
+
+            <header>
+                <p class="title">
+                    Cadastro de Conta
+                </p>
+            </header>
+
+            <div class="div-cad">
+                <form action="" class="form-cad">
+                    <div class="input-area">
+                        <label>Nome *</label>
+                      <input type="text" class="nome" placeholder="Digite seu nome" required maxlength="60">   
+                    </div>
+                   
+                    <div class="input-area">
+                        <label>Email *</label>
+                       <input type="email" class="email" placeholder="Digite seu email" required maxlength="255"> 
+                    </div>
+                    
+                    <div class="input-area">
+                        <label>Senha *</label>
+                        <input type="password" class="senha1" placeholder="Digite sua senha" required minlength="8" maxlength="20"> 
+                    </div>
+                   
+                    <div class="input-area">
+                        <label>Repita sua senha *</label>
+                        <input type="password" class="senha2" placeholder="Repita sua senha" required minlength="8" maxlength="20">
+                    </div>
+                    
+                
+                    <button class="button">Cadastrar</button>
+
+                    <div id="mensagem-sucesso"></div>
+                    <div id="mensagem-erro"></div>
+
+                    <div class="back">
+                        <a href="../index.html">
+                            Voltar para tela de login
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

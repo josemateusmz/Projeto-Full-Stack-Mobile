@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cgfinancas</title>
+    <link rel="stylesheet" href="perfil.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="background-login">
+        <div class="login-container">
+            <header>
+                <img src="" alt="">
+                <p class="title">Perfil do usuário</p>
+            </header>
+            <div class="div-perfil">
+                <form action="" class="form-perfil">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="nome" placeholder="Nome" required maxlength="60">
+
+                    <label style="text-align: left;" for="email">Email:</label>
+                    <input type="email" class="email" placeholder="Email" required maxlength="255" readonly>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" class="telefone" placeholder="Digite seu Telefone" required maxlength="20">
+
+                    <label for="descricao">Biografia:</label>
+                    <textarea id="descricao" placeholder="Digite sua Biografia" required maxlength="300"> </textarea>
+
+                    <label for="abertura">Data de abertura da conta:</label>
+                    <input type="date" class="abertura" placeholder="Data de abertura da conta" readonly>
+                
+                    <div id="div-button">
+                        <button type="submit" class="bteditar">Salvar Alterações</button>
+                        <button type="submit" class="btdesativar">Desativar conta</button>  
+                    </div>
+                    
+                    <div id="mensagem-erro"></div>
+                    <div id="mensagem-sucesso"></div>
+                </form>        
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
