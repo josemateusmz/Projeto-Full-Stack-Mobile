@@ -1,13 +1,34 @@
 {
-  "name": "CgFinancas",
-  "short_name": "CGF",
+  "name": "Ferreira Costa",
+  "short_name": "FC",
   "start_url": "index.html",
   "display": "fullscreen",
   "orientation": "portrait",
   "description": "",
-  "background_color": "#f0d886",
-  "theme_color": "#f0d886",
+  "background_color": "#EF6B7C",
+  "theme_color": "#EF6B7C",
   "icons": [
-
-  ]
+    {
+     "src": "assets/img/icon/196.png",
+     "sizes": "196x196",
+     "type": "image/png"
+    },
+    {
+     "src": "/assets/img/icon/512.png",
+     "sizes": "512x512",
+     "type": "image/png"
+    },
+    {
+     "purpose": "maskable",
+     "src": "/assets/img/icon/maskable_icon_x196.png",
+     "sizes": "196x196",
+     "type": "image/png"
+    },
+    {
+     "purpose": "maskable",
+     "src": "/assets/img/icon/maskable_icon_x512.png",
+     "sizes": "512x512",
+     "type": "image/png"
+    }
+   ]
 }

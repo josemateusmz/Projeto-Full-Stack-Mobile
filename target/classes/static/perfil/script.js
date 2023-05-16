@@ -42,7 +42,7 @@ function desativarConta() {
     })
     .then(response => {
         if (response.ok) {
-          window.location.href = "..index.html";
+          window.location.href = "../index.html";
           return response.json();
         } else {
           throw new Error('Não foi possível excluir o usuário');
